@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    outline: none;
+    border: none;
+    transition: all 0.3s linear;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+   font-size: 65%; 
+}
+
+
+:root{
+    --bg: #ffb320;
+    --color: #212529;
+}
+.navbar{
+    background: var(--color);
+}
+.home img{
+    min-height: 90vh;
+    object-fit: cover;
+    position: relative;
+}
+.home .content{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+.home p{
+    line-height: 2;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.cards .images{
+    position: relative;
+}
+.cards .images span{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.cards .images h4{
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    padding: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+.cards .images h6{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    padding: 15px;
+    line-height: 1.6;
+    color: #fff;
+    font-size: 12px;
+    
+}
+.games{
+    background-image: url(../images/recent-game-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.tour{
+    background-image: url(../images/pattern.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 4rem;
+}
+.tour img{
+    height: 100%;
+}
+.tour h5{
+    color: var(--bg);
+    padding: 10px;
+}
+.tour span{
+    line-height: 2;
+}
+.tour h6{
+    color: var(--bg);
+    padding: 10px 0;
+    font-size: 8px;
+}
+.reviews{
+    background-image: url(../images/review-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.reviews span{
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    padding: 5px;
+}
+.footer{
+    background-image: url(../images/pattern.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0;
+}
+.footer .title img{
+    width: 80px;
+}
+.footer h3{
+    color:#fff;
+    padding:20px;
+    font-size: 20px;
+}
+.footer h6{
+    color:var(--bg);
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.footer p{
+    color:#fff;
+    padding: 5px 10px;
+    font-size: 8px;
+}
+
+@media(max-width: 600px){
+    html{
+        font-size: 50%;
+    }
+    .navbar .log{
+        display: none;
+    }
+    .tour{
+        margin: 45rem 0;
+        background: #fff;
+    }
+}

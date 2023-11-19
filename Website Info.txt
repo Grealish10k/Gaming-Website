@@ -1,0 +1,27 @@
+Games:
+    Elden ring
+    Doom Eternal
+    Halo Infinite
+    Animal Crossing New Horizons
+    The Last of Us
+    Diablo 4
+    God of War Ragnarok
+
+Inspiration:
+    Sekiro: Shadows Die Twice
+    Black Myth: Wukong
+    Bleach TYBW
+    Steins;Gate.jp
+
+Resources:
+    Bootswatch
+    Bootstrap
+
+Content:
+    Landing Page
+    Game Descriptions
+    Ratings
+    Trailers
+    Shop to buy them
+    Brief of our team
+    Contact info
